@@ -2,6 +2,8 @@
 
 ![Playwright Tests](https://github.com/MahmoudHabib93/RemotePass_Task/actions/workflows/playwright.yml/badge.svg)
 
+**[📊 View Live Allure Report](https://MahmoudHabib93.github.io/RemotePass_Task/)**
+
 This repository contains a professional Playwright + TypeScript automation framework designed for the RemotePass platform assessment.
 
 ## Project Structure
