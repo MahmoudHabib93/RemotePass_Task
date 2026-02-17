@@ -1,5 +1,7 @@
 # RemotePass QA Automation Assessment
 
+![Playwright Tests](https://github.com/MahmoudHabib93/RemotePass_Task/actions/workflows/playwright.yml/badge.svg)
+
 This repository contains a professional Playwright + TypeScript automation framework designed for the RemotePass platform assessment.
 
 ## Project Structure
