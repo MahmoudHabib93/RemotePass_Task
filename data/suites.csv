@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","193","TC07: API Response Validation","chromium","2026-02-17","passed","2026-02-17","API Validation","api.spec.ts","",""
+"","3952","TC06: Console Error & Network Listener","chromium","2026-02-17","passed","2026-02-17","Network & Performance","network.spec.ts","",""
+"","3921","TC01: Verify Global Navigation to Pricing","chromium","2026-02-17","passed","2026-02-17","Navigation & Stability","navigation.spec.ts","",""
+"","3186","TC03: Form Validation - Invalid Email","chromium","2026-02-17","passed","2026-02-17","Book a Demo Form","demo-form.spec.ts","",""
+"","2958","TC04: Verify Homepage Content stability","chromium","2026-02-17","passed","2026-02-17","Feature Logic","features.spec.ts","",""
+"","4302","TC02: Automated Broken Link Scanner","chromium","2026-02-17","passed","2026-02-17","Navigation & Stability","navigation.spec.ts","",""
+"","2691","TC05: Blog Dynamic Search","chromium","2026-02-17","passed","2026-02-17","Feature Logic","features.spec.ts","",""
