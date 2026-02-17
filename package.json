@@ -1,0 +1,22 @@
+{
+  "name": "remotepass-qa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "report": "allure generate allure-results -o allure-report --clean && allure open allure-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "allure-commandline": "^2.36.0",
+    "allure-playwright": "^3.4.5",
+    "cross-env": "^10.1.0",
+    "http-server": "^14.1.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

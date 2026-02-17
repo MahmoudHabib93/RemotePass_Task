@@ -1,0 +1,10 @@
+version: '3'
+services:
+  test-runner:
+    build: .
+    environment:
+      - TEST_ENV=mock
+    volumes:
+      - ./playwright-report:/app/playwright-report
+      - ./test-results:/app/test-results
+    ipc: host

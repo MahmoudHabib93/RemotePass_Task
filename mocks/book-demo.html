@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Book a Demo</title>
+</head>
+
+<body>
+    <form id="demo-form" onsubmit="event.preventDefault(); validate();" novalidate>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" required>
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" required>
+
+        <label for="email">Work Email</label>
+        <input type="email" id="email" required>
+
+        <label for="company">Company Name</label>
+        <input type="text" id="company" required>
+
+        <button type="submit">Book a demo</button>
+    </form>
+
+    <div class="error-message" style="display:none; color: red;">Please enter a valid work email.</div>
+
+    <script>
+        function validate() {
+            const email = document.getElementById('email').value;
+            // logic checks for 'invalid-email' to show error
+            if (!email.includes('@') || email === 'invalid-email') {
+                const errorMsg = document.querySelector('.error-message');
+                errorMsg.style.display = 'block';
+                errorMsg.textContent = 'Please enter a valid work email.';
+            } else {
+                // success
+                window.location.href = 'thank-you.html';
+            }
+        }
+    </script>
+</body>
+
+</html>

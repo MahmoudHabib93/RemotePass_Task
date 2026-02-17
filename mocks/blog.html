@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Blog</title>
+</head>
+
+<body>
+    <div class="search-container">
+        <input type="search" placeholder="Search">
+        <button>Search</button>
+    </div>
+    <div id="results">
+        <h3>Managing Remote Teams</h3>
+        <h3>Global Payroll Guide</h3>
+    </div>
+    <script>
+        const input = document.querySelector('input');
+        input.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter') {
+                const term = input.value;
+                document.getElementById('results').innerHTML = `<h3>Results for ${term}</h3>`;
+            }
+        });
+    </script>
+</body>
+
+</html>
